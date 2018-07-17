@@ -1,0 +1,92 @@
+html
+{
+
+	font-family: sans-serif;
+	background: url("../images/bats.gif");
+	background-size: center;
+	background-repeat: repeat;
+}
+
+body
+{
+	background-color: white;	
+	width: 800px;
+	box-shadow: 5px 5px 5px 5px;
+	margin:0 auto;
+	
+}
+
+big
+{
+
+	font-size: 50px;
+
+}
+
+img
+{
+	
+	float:left;
+
+}
+
+.first
+{
+
+    	text-indent: 40px;
+
+}
+
+.second
+{
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background: linear-gradient(to right, #ffffff 0%,#ff9900 75%,#000000 100%);
+	
+
+}
+
+footer
+{
+
+	font-size:13px;
+	text-align: center;
+	border-top: 1px solid black;
+	background: linear-gradient(to right, #000000 0%,#ff9900 75%,#ffffff 100%);
+	
+}
+	
+
+.sidenav 
+{
+    
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    background-color: #ffffff; 
+top: 160px;
+    
+    
+}
+
+
+.sidenav a 
+{
+    	font-style: bold;
+    	color: orange;
+	margin-bottom: 5px;
+}
+
+
+.sidenav a:hover 
+{
+    color: #f1f1f1;
+}
+
+
+.main 
+{
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+
+	
+}
